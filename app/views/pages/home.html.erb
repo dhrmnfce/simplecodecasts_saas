@@ -2,3 +2,22 @@
     <h1>Welcome to prgrmMatters</h1>
     <h3>A membership site where entrepreneurs can meet developers.</h3>
 </div>
+<div class="row">
+    <div class="col-md-6">
+        <div class="well">
+            <h2 class="text-center">Basic Membership</h2>
+            <hr style="height:1px; border:none; background-color:#B0B0B0;">
+            <h4>Sign up for free to get basic access to the community.</h4>
+            <%= link_to "Sign up with Basic", new_user_registration_path, class: "btn btn-primary btn-lg btn-block" %>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="well">
+            <h2 class="text-center">Pro Membership</h2>
+            <hr style="height:1px; border:none; background-color:#B0B0B0;">
+            <h4>Sign up for the pro account for just $10/month to get premium* access to the community!</h4>
+            <%= link_to "Sign up with Pro", new_user_registration_path, class: "btn btn-success btn-lg btn-block" %>
+            <h6 class="text-center">*Access contact information of fellow developers and entrepreneurs to make networking much easier.</h6>
+        </div>
+    </div>
+</div>
