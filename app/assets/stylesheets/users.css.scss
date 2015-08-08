@@ -1,0 +1,36 @@
+.job-title-icon {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #CDCDCD;
+    display: inline-block;
+    border-radius: 4px;
+    color: #CDCDCD;
+    background-color: #F7F7F7;
+}
+
+.well.profile-block {
+    
+    h3 {
+        margin-top:0;
+    }
+}
+
+.well.profile-description {
+    
+    /*   Maybe style this?   */
+    
+}
+
+.well.contact-info {
+    
+    /*   Maybe style this?   */
+    
+}
+
+.avatar {
+    border: 2px solid #F7F7F7;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 3px 3px 0px rgba(5, 5, 5, 0.6);
+    -moz-box-shadow:    0px 3px 3px 0px rgba(5, 5, 5, 0.6);
+    box-shadow:         0px 3px 3px 0px rgba(5, 5, 5, 0.6);
+}
