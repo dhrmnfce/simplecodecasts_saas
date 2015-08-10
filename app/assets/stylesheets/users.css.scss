@@ -1,8 +1,11 @@
+/* Users show page styles */
 .job-title-icon {
     width: 30px;
     height: 30px;
     border: 1px solid #CDCDCD;
     display: inline-block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
     border-radius: 4px;
     color: #CDCDCD;
     background-color: #F7F7F7;
@@ -27,10 +30,41 @@
     
 }
 
-.avatar {
+.user-show-avatar {
+    height:128px;
+    width:128px;
     border: 2px solid #F7F7F7;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
     border-radius: 50%;
     -webkit-box-shadow: 0px 3px 3px 0px rgba(5, 5, 5, 0.6);
     -moz-box-shadow:    0px 3px 3px 0px rgba(5, 5, 5, 0.6);
     box-shadow:         0px 3px 3px 0px rgba(5, 5, 5, 0.6);
+}
+
+
+/* Users index page styles */
+.user-index-avatar {
+    height:100px;
+    width:100px;
+    border: 2px solid #F7F7F7;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 3px 3px 0px rgba(5, 5, 5, 0.6);
+    -moz-box-shadow:    0px 3px 3px 0px rgba(5, 5, 5, 0.6);
+    box-shadow:         0px 3px 3px 0px rgba(5, 5, 5, 0.6);
+}
+
+.well.white-bg{
+    background-color: white;
+}
+
+.com-user-name{
+    color: #333333;
+    display: inline-block;
+}
+
+a:hover{
+    text-decoration: none;
 }
